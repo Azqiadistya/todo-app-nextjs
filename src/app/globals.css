@@ -25,6 +25,57 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.todo-list{
+  padding-top: 20px;
+}
+.todo-list ul li {
+  margin-top: 10px;
+}
+.todo-list ul li span {
+  margin-left: 10px;
+}
+.btn-add-task button{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 15%;
+  background-color: blue;
+  color: #ffff;
+  border-radius: 10px;
+}
+.btn-list-todo button{
+  /* background-color: blue; */
+  padding: 10px 30px;
+  margin-right: 0px;
+  width: 47%;
+  border-radius: 10px;
+}
+.btn-list-todo .btn-checkmark{
+  background-color: rgb(74, 139, 9);
+  margin-right: 3px;
+}
+.btn-list-todo .btn-delete{
+  background-color: rgb(218, 3, 3);
+}
+.btn-done-todo{
+  background-color: rgb(218, 3, 3);
+  padding: 7px 30px;
+  border-radius: 10px;
+}
+.todo-list input{
+  padding: 10px;
+  border-radius: 10px;
+}
+.todo-list ul{
+  margin-top: 20px;
+}
+/* .todo-list ul li{
+  margin-top: 7px;
+} */
+.todo-list h4{
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
 
 @layer utilities {
   .text-balance {
